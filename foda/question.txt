@@ -1,0 +1,7 @@
+This java program uses Hierarchical inheritance and is useful to Calculate Salary of Full Time or Part Time Employee who works in a Company. Here we have a parent class Employee in which we have declared variables like name, address, gender and age. We take the input of these variables by invoking the Constructor. We also have a method called display() which is used to display the details of the Employee.
+
+Second class fullTimeEmployees inherits the Employee class and is used to get the designation and salary of an Employee. We have a method display() which first calls the super method i.e., the display() method present in Employee class.
+
+Third class partTimeEmployees inherits the Employee class and is used to get the Working hours of a part time employee. We have the same display() method which first class the super display method and prints the other details.
+
+In the Employees class we are creating objects to the fullTimeEmployees and partTimeEmployees classes. We can implement this program using array of objects also. You can refer this example and implement array of objects
